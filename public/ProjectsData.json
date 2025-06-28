@@ -1,0 +1,66 @@
+[
+  {
+    "title": "EventExplorer",
+    "images": [
+      "https://i.ibb.co/RkWwf8Fr/image.png",
+      "https://i.ibb.co/Y2MN2k6/project01b.png",
+      "https://i.ibb.co/WVWtNjZ/project01c.png"
+    ],
+    "description": "A complete event listing platform with filtering, booking, and admin panel. Built with React, Firebase & Swiper.",
+    "features": [
+      "Event filtering by category/date",
+      "User & admin panel functionality",
+      "Responsive carousel integration"
+    ],
+    "live": "https://eventexplorer.netlify.app",
+    "github": "https://github.com/yeasin75/EventExplorer",
+    "tech": ["React", "Firebase", "Tailwind", "Swiper"],
+    "challenges": "Managing real-time data updates and optimizing carousel performance was challenging.",
+    "futurePlans": "Implement social login and improve mobile UX."
+  },
+  {
+    "title": "Find Roommates",
+    "images": [
+      "https://i.ibb.co/RkWwf8Fr/image.png",
+      "https://i.ibb.co/8DpGwPh/project02b.png"
+    ],
+    "description": "A full-stack web app to post/find roommates. Includes auth, dashboard, and chat support.",
+    "features": [
+      "JWT-based authentication system",
+      "Roommate request & user post",
+      "Chat and dashboard modules"
+    ],
+    "live": "https://findroommates.vercel.app",
+    "github": "https://github.com/yeasin75/roommate-finder-client",
+    "tech": ["React", "Node.js", "MongoDB", "Express"],
+    "challenges": "Integrating real-time chat and securing routes required extra focus.",
+    "futurePlans": "Add rating system and improve dashboard analytics."
+  },
+  {
+    "title": "Runners.bd",
+    "images": [
+      "https://i.ibb.co/Y4pPN9Yq/Your-Marathon.png",
+      "https://i.ibb.co/MD96TV0D/Add-Marathon.png",
+      "https://i.ibb.co/LhDBCx0x/All-Marathon.png",
+      "https://i.ibb.co/DDqqQpBT/Home-Page01.png",
+      "https://i.ibb.co/zTpQR8n8/LogIn.png",
+      "https://i.ibb.co/4nfsKMLC/Marathon-Details.png",
+      "https://i.ibb.co/VcNMWQry/Profile.png",
+      "https://i.ibb.co/XZ5Pv6vq/Registration-Page.png",
+      "https://i.ibb.co/w3h011g/SignUp.png",
+      "https://i.ibb.co/Zp1S3Jyw/Your-Application-MArathon.png",
+      "https://i.ibb.co/RkWwf8Fr/image.png"
+    ],
+    "description": "Marathon management app with user/donor roles, countdown, private routes, and secure backend.",
+    "features": [
+      "Role-based routing (admin, donor, runner)",
+      "Countdown & donor showcase",
+      "JWT-secured API backend"
+    ],
+    "live": "https://runflow.web.app",
+    "github": "https://github.com/yeasin75/RunFlow",
+    "tech": ["React", "Firebase", "JWT", "MongoDB"],
+    "challenges": "Implementing secure private routes and handling multiple user roles was complex.",
+    "futurePlans": "Add real-time event updates and expand donation options."
+  }
+]

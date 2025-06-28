@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-regular {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
