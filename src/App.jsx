@@ -13,6 +13,7 @@ import GetInTouch from './components/GetInTouch.jsx'
 import Footer from './components/Footer.jsx'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import MyServices from "./components/MyServices.jsx";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -45,6 +46,7 @@ function App() {
                 <Skills />
                 {/* <Experience /> */}
                 <Education />
+                <MyServices />
                 <Projects />
                 <GetInTouch />
                 <Footer />

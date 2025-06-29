@@ -6,7 +6,7 @@ const educationData = [
     description:
       "Currently pursuing my degree in Computer Science and Engineering, focusing on modern web development and software technologies.",
   },
-   {
+  {
     year: "Jan 2024 - July 2024",
     degree: "Complete Web Development Level 1 (Course)",
     institution: "Programming Hero",
@@ -17,11 +17,11 @@ const educationData = [
 
 const Education = () => {
   return (
-    <section id="education" className="bg-[#312f2f] py-20 text-white">
-      <div className="container mx-auto px-4 md:px-0 mb-16">
+    <section id="education" className="bg-[#312f2f] py-12 lg:py-20 text-white">
+      <div className="container mx-auto px-4 md:px-0">
         {/* Centered Section Title */}
         <div className="flex justify-center" data-aos="fade-up">
-          <h2 className="text-4xl font-extrabold text-center mb-24 tracking-wider relative inline-block">
+          <h2 className="text-4xl font-extrabold text-center mb-12 tracking-wider relative inline-block">
             <span className="relative z-10 text-white drop-shadow-[2px_2px_0px_#ff0054]">
               MY EDUCATION & COURSES
             </span>
@@ -33,7 +33,7 @@ const Education = () => {
           {educationData.map((item, index) => (
             <div
               key={index}
-              className="bg-[#1e1e1e] border border-gray-700 p-6 rounded shadow hover:shadow-lg transition"
+              className="bg-[#1e1e1e] border border-secondary p-6 rounded shadow hover:shadow-lg transition"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >

@@ -12,6 +12,7 @@ const Navbar = () => {
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
     { id: "education", label: "Education" },
+    { id: "services", label: "Services" },
     { id: "projects", label: "Projects" },
     { id: "contact", label: "Contact" },
   ];
@@ -31,7 +32,7 @@ const Navbar = () => {
   return (
     <>
       <section
-        className={`sticky top-0 z-50 transition-all duration-300  ${scrolled ? "bg-white text-black shadow-md" : " text-white"
+        className={`sticky top-0 z-50 bg-[#333333]/40 transition-all duration-300  ${scrolled ? "bg-white text-black shadow-md" : " text-white"
           }`}>
         <div className="container mx-auto px-4 lg:px-0 py-4 md:px-0 navbar">
           {/* Logo */}
@@ -49,7 +50,7 @@ const Navbar = () => {
 
 
           {/* Desktop Nav */}
-          <div className="navbar-end hidden lg:flex space-x-8">
+          <div className="navbar-end hidden lg:flex space-x-7">
             {navLinks.map((link) => (
               <Link
                 key={link.id}
@@ -59,7 +60,7 @@ const Navbar = () => {
                 offset={-70}
                 spy={true}
                 activeClass="active"
-                className="cursor-pointer hover:text-[#ff0054] transition-colors duration-300"
+                className="cursor-pointer text-lg hover:text-[#ff0054] transition-colors duration-300"
               >
                 {link.label}
               </Link>

@@ -109,7 +109,7 @@ const Hero = () => {
                     <img
                         src="/yeasin-profile.jpg"
                         alt="Yeasin Islam"
-                        className="w-[80%] h-[80%] rounded-xl object-cover border-2 border-primary mx-auto transform transition duration-300 hover:scale-105"
+                        className="w-[80%] h-[80%] rounded-xl object-cover border-2 border-secondary mx-auto transform transition duration-300 hover:scale-105"
                     />
                 </div>
             </div>
