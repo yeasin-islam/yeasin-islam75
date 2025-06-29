@@ -1,4 +1,4 @@
-import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaDownload, FaFacebook, FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-scroll";
 
@@ -17,9 +17,9 @@ const Hero = () => {
                     <h1 className="text-3xl md:text-5xl font-extrabold leading-tight">
                         Hi, I'm <span className="text-[#ff0054]">Md.Yeasin Islam</span>
                     </h1>
-                    <h2 className="text-2xl md:text-3xl mt-3 font-extrabold ">
-                        I am{" "}
-                        <span className="text-yellow-300 text-4xl">
+                    <h2 className="text-xl md:text-3xl mt-3 font-extrabold ">
+                        {" "}
+                        <span className="text-yellow-300 text-2xl md:text-3xl lg:text-4xl ">
                             <Typewriter
                                 words={[
                                     "a MERN Stack Developer",
@@ -99,7 +99,7 @@ const Hero = () => {
                             offset={-70}
                             className="cursor-pointer hover:text-[] btn btn-secondary"
                         >
-                            Contact Me
+                            <FaPhoneAlt /> Contact Me
                         </Link>
                     </div>
                 </div>

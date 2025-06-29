@@ -26,7 +26,7 @@ const Skills = () => {
           }
           return updated;
         });
-      }, 100); // Adjust speed here
+      }, 50); // Adjust speed here
     });
 
     return () => intervals.forEach(clearInterval);

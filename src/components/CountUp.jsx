@@ -1,10 +1,11 @@
 import CountUp from "react-countup";
-import { FaCode, FaUsers, FaTrophy, FaCoffee } from "react-icons/fa";
+import { FaCode, FaTrophy, FaCoffee } from "react-icons/fa";
+import { IoGitCommit } from "react-icons/io5";
 
 const stats = [
-  { icon: <FaCode />, label: "Projects", value: 3 },
-  { icon: <FaUsers />, label: "Clients", value: 0 },
-  { icon: <FaTrophy />, label: "Awards", value: 0 },
+  { icon: <FaCode />, label: "Complete Projects", value: 3 },
+  { icon: <IoGitCommit />, label: "GitHub Commit", value: 200 },
+  { icon: <FaTrophy />, label: "Awards", value: 1 },
   { icon: <FaCoffee />, label: "Cups of Coffee", value: 500 },
 ];
 
@@ -23,7 +24,7 @@ const CountUpStats = () => {
               <div className="card-body items-center">
                 <div className="text-4xl text-[#ff0054] mb-2">{stat.icon}</div>
                 <h3 className="text-3xl font-bold text-white">
-                  <CountUp end={stat.value} duration={4.5} />
+                  <CountUp end={stat.value} duration={4.5} /> +
                 </h3>
                 <p className="text-white text-lg mt-1">{stat.label}</p>
               </div>
