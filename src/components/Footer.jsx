@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex justify-center gap-5">
           {[
             {
-              href: "https://facebook.com/yeasin.islam2018",
+              href: "https://www.facebook.com/yeasin.islam2018",
               icon: <FaFacebook />,
               label: "Facebook",
             },
@@ -18,7 +18,7 @@ const Footer = () => {
               label: "LinkedIn",
             },
             {
-              href: "https://github.com/yeasin75",
+              href: "https://github.com/yeasin-islam",
               icon: <FaGithub />,
               label: "GitHub",
             },
@@ -40,7 +40,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-sm text-gray-300">
-          Copyright © {new Date().getFullYear()} — All rights reserved by{" "}
+          Copyright © {new Date().getFullYear()} - All rights reserved by{" "}
           <span className="text-[#ff0054] font-semibold">Yeasin Islam</span>
         </p>
       </div>

@@ -47,7 +47,7 @@ const Hero = () => {
                         data-aos="zoom-in"
                     >
                         <a
-                            href="https://facebook.com/yeasin.islam2018"
+                            href="https://www.facebook.com/yeasin.islam2018"
                             target="_blank"
                             rel="noreferrer"
                             className="group relative w-11 h-11 rotate-45 bg-[#3b3b3b] hover:bg-[#ff0054] transition rounded-xl duration-300"
@@ -67,7 +67,7 @@ const Hero = () => {
                             </div>
                         </a>
                         <a
-                            href="https://github.com/yeasin75"
+                            href="https://github.com/yeasin-islam"
                             target="_blank"
                             rel="noreferrer"
                             className="group relative w-11 h-11 rotate-45 bg-[#3b3b3b] hover:bg-[#ff0054] transition rounded-xl duration-300"

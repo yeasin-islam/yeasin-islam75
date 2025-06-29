@@ -2,6 +2,7 @@ import { FaEnvelope, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import emailjs from "emailjs-com";
 import { useRef } from "react";
 import Swal from "sweetalert2";
+import { FaLocationDot } from "react-icons/fa6";
 
 const GetInTouch = () => {
   const form = useRef();
@@ -49,26 +50,14 @@ const GetInTouch = () => {
         {/* Grid Layout */}
         <div className="grid md:grid-cols-2 gap-10">
           {/* Contact Info */}
-          <div className="p-6 gap-12 flex flex-col" data-aos="fade-left">
-            <div className="flex items-start gap-4">
-              <FaEnvelope className="text-primary mt-1" />
-              <div>
-                <p className="font-semibold">Email</p>
-                <a
-                  href="mailto:info.yeasinislam@gmail.com"
-                  className="text-[#ff0054] hover:underline"
-                >
-                  info.yeasinislam@gmail.com
-                </a>
-              </div>
-            </div>
+          <div className="p-6 gap-6 flex flex-col" data-aos="fade-left">
 
             <div className="flex items-start gap-4">
               <FaPhoneAlt className="text-primary mt-1" />
               <div>
                 <p className="font-semibold">Phone</p>
                 <a href="tel:+8801318181198" className="text-[#ff0054] hover:underline">
-                  +880 1318181198
+                  +880 1318 181198
                 </a>
               </div>
             </div>
@@ -85,6 +74,31 @@ const GetInTouch = () => {
                 >
                   Chat on WhatsApp
                 </a>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <FaEnvelope className="text-primary mt-1" />
+              <div>
+                <p className="font-semibold">Email</p>
+                <a
+                  href="mailto:info.yeasinislam@gmail.com"
+                  className="text-[#ff0054] hover:underline"
+                >
+                  info.yeasinislam@gmail.com
+                </a>
+              </div>
+            </div>
+            
+            <div className="flex items-start gap-4">
+              <FaLocationDot className="text-primary mt-1" />
+              <div>
+                <p className="font-semibold">Address</p>
+                <p
+                  className="text-[#ff0054]"
+                >
+                  Uttara, Dhaka, Bangladesh
+                </p>
               </div>
             </div>
           </div>
