@@ -22,8 +22,7 @@ const Hero = () => {
                         <span className="text-yellow-300 text-4xl">
                             <Typewriter
                                 words={[
-                                    "a Full Stack Developer",
-                                    "a MERN Stack Expert",
+                                    "a MERN Stack Developer",
                                     "a Frontend Specialist",
                                     "a Problem Solver",
                                 ]}

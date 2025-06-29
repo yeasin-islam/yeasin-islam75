@@ -99,35 +99,35 @@ const GetInTouch = () => {
             <input
               type="text"
               name="user_name"
-              placeholder="Your Name"
-              className="input input-bordered w-full text-black"
+              placeholder="Your name"
+              className="input input-bordered bg-white w-full text-black"
               required
             />
             <input
               type="text"
               name="subject"
               placeholder="Subject"
-              className="input input-bordered w-full text-black"
+              className="input input-bordered bg-white w-full text-black"
               required
             />
             <input
               type="email"
               name="user_email"
-              placeholder="Your Email"
-              className="lg:col-span-2 input input-bordered w-full text-black"
+              placeholder="Your e-mail"
+              className="lg:col-span-2 input bg-white input-bordered w-full text-black"
               required
             />
             <textarea
               name="message"
-              placeholder="Your Message"
-              className="lg:col-span-2 textarea textarea-bordered w-full h-32 text-black"
+              placeholder="Type your message here"
+              className="lg:col-span-2 bg-white textarea textarea-bordered w-full h-32 text-black"
               required
             ></textarea>
 
             {/* Hidden time field */}
             <input type="hidden" name="time" ref={(el) => form.current && (form.current.time = el)} />
 
-            <button type="submit" className="btn btn-primary w-full font-semibold">
+            <button type="submit" className=" lg:col-span-2 btn btn-primary w-full font-semibold">
               Send Message
             </button>
           </form>

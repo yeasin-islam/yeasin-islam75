@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <>
       <section
-        className={`sticky top-0 z-50 transition-all duration-300  ${scrolled ? "bg-white text-black shadow-md" : "bg-white/20 text-white"
+        className={`sticky top-0 z-50 transition-all duration-300  ${scrolled ? "bg-white text-black shadow-md" : " text-white"
           }`}>
         <div className="container mx-auto px-4 lg:px-0 py-4 md:px-0 navbar">
           {/* Logo */}
@@ -100,49 +100,50 @@ const Navbar = () => {
         </div>
       </section >
 
-      {/* Mobile Right Drawer */}
-      {isDrawerOpen && (
-        <div className="fixed inset-0 z-50 bg-opacity-40" onClick={closeDrawer}>
-          <div
-            onClick={(e) => e.stopPropagation()}
-            className={`fixed top-0 right-0 h-full w-1/2 p-6 flex flex-col gap-6 transition-all duration-300
-        ${scrolled ? "bg-white text-black" : "bg-[#333333] text-white"}`}
+      <div
+        className={`fixed inset-0 z-50 transition-all duration-300 ${isDrawerOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+        onClick={closeDrawer}
+      >
+        <div
+          onClick={(e) => e.stopPropagation()}
+          className={`fixed top-0 right-0 h-full w-1/2 p-6 flex flex-col gap-6 transition-all duration-300 transform ${isDrawerOpen ? "translate-x-0" : "translate-x-full"} 
+      ${scrolled ? "bg-white text-black" : "bg-[#333333] text-white"}`}
+        >
+          <button
+            onClick={closeDrawer}
+            className="absolute top-5 right-5 text-3xl rounded-full cursor-pointer"
+            aria-label="Close Menu"
           >
-            <button
-              onClick={closeDrawer}
-              className="absolute top-5 right-5 text-3xl rounded-full cursor-pointer" 
-              aria-label="Close Menu"
-            >
-              ✕
-            </button>
+            ✕
+          </button>
 
-            <div className="flex flex-col gap-6 mt-10">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.id}
-                  to={link.id}
-                  smooth={true}
-                  duration={500}
-                  offset={-70}
-                  onClick={closeDrawer}
-                  className="hover:text-primary cursor-pointer flex"
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </div>
-            <a
-              href="/Yeasin_Resume.pdf"
-              download='Yeasin_Resume.pdf'
-              className="btn btn-primary flex items-center gap-2"
-            >
-              <FaDownload /> My Resume
-            </a>
+          <div className="flex flex-col gap-6 mt-10">
+            {navLinks.map((link) => (
+              <Link
+                key={link.id}
+                to={link.id}
+                smooth={true}
+                duration={900}
+                offset={-70}
+                spy={true}
+                activeClass="active"
+                onClick={closeDrawer}
+                className="hover:text-[#ff0054] transition-colors duration-300 cursor-pointer"
+              >
+                {link.label}
+              </Link>
+            ))}
           </div>
+
+          <a
+            href="/Yeasin_Resume.pdf"
+            download="Yeasin_Resume.pdf"
+            className="btn btn-primary flex items-center gap-2 mt-6"
+          >
+            <FaDownload /> My Resume
+          </a>
         </div>
-      )}
-
-
+      </div>
       {/* Active Link Styling */}
       <style jsx="true">{`
           .active {

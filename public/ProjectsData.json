@@ -1,28 +1,35 @@
 [
   {
-    "title": "EventExplorer",
+    "title": "Runners.bd",
     "images": [
-      "https://i.ibb.co/RkWwf8Fr/image.png",
-      "https://i.ibb.co/Y2MN2k6/project01b.png",
-      "https://i.ibb.co/WVWtNjZ/project01c.png"
+      "https://i.ibb.co/hRjcDVbn/image.png",
+      "https://i.ibb.co/3mxCPc0p/image.png",
+      "https://i.ibb.co/4gRQ5cbC/image.png",
+      "https://i.ibb.co/tMdkPN09/image.png",
+      "https://i.ibb.co/zHs0tzrF/image.png",
+      "https://i.ibb.co/zTpQR8n8/LogIn.png",
+      "https://i.ibb.co/RGt8dKC6/image.png",
+      "https://i.ibb.co/zT0gVgpw/image.png"
     ],
-    "description": "A complete event listing platform with filtering, booking, and admin panel. Built with React, Firebase & Swiper.",
+    "description": "Marathon management app with user/donor roles, countdown, private routes, and secure backend.",
     "features": [
-      "Event filtering by category/date",
-      "User & admin panel functionality",
-      "Responsive carousel integration"
+      "Role-based routing (admin, runner)",
+      "Countdown & donor showcase",
+      "JWT-secured API backend"
     ],
-    "live": "https://eventexplorer.netlify.app",
-    "github": "https://github.com/yeasin75/EventExplorer",
-    "tech": ["React", "Firebase", "Tailwind", "Swiper"],
-    "challenges": "Managing real-time data updates and optimizing carousel performance was challenging.",
-    "futurePlans": "Implement social login and improve mobile UX."
+    "live": "https://marathon-management-syst-f546e.web.app",
+    "github": "https://github.com/yeasin-islam/Runners.bd",
+    "tech": ["React", "Firebase", "JWT", "MongoDB"],
+    "challenges": "Implementing secure private routes and handling multiple user roles was complex.",
+    "futurePlans": "Add real-time event updates and expand donation options."
   },
   {
     "title": "Find Roommates",
     "images": [
-      "https://i.ibb.co/RkWwf8Fr/image.png",
-      "https://i.ibb.co/8DpGwPh/project02b.png"
+      "https://i.ibb.co/SXMbz92X/image.png",
+      "https://i.ibb.co/cRn8HdL/image.png",
+      "https://i.ibb.co/C3SRLVp3/image.png",
+      "https://i.ibb.co/q3qtvL9x/image.png"
     ],
     "description": "A full-stack web app to post/find roommates. Includes auth, dashboard, and chat support.",
     "features": [
@@ -30,37 +37,31 @@
       "Roommate request & user post",
       "Chat and dashboard modules"
     ],
-    "live": "https://findroommates.vercel.app",
-    "github": "https://github.com/yeasin75/roommate-finder-client",
+    "live": "https://roommate-finder-b11-a10.web.app",
+    "github": "https://github.com/yeasin-islam/roommate-finder",
     "tech": ["React", "Node.js", "MongoDB", "Express"],
     "challenges": "Integrating real-time chat and securing routes required extra focus.",
     "futurePlans": "Add rating system and improve dashboard analytics."
   },
   {
-    "title": "Runners.bd",
+    "title": "EventExplorer",
     "images": [
-      "https://i.ibb.co/Y4pPN9Yq/Your-Marathon.png",
-      "https://i.ibb.co/MD96TV0D/Add-Marathon.png",
-      "https://i.ibb.co/LhDBCx0x/All-Marathon.png",
-      "https://i.ibb.co/DDqqQpBT/Home-Page01.png",
-      "https://i.ibb.co/zTpQR8n8/LogIn.png",
-      "https://i.ibb.co/4nfsKMLC/Marathon-Details.png",
-      "https://i.ibb.co/VcNMWQry/Profile.png",
-      "https://i.ibb.co/XZ5Pv6vq/Registration-Page.png",
-      "https://i.ibb.co/w3h011g/SignUp.png",
-      "https://i.ibb.co/Zp1S3Jyw/Your-Application-MArathon.png",
-      "https://i.ibb.co/RkWwf8Fr/image.png"
+      "https://i.ibb.co/j9ZHP81S/image.png",
+      "https://i.ibb.co/GvsWpdR2/image.png",
+      "https://i.ibb.co/gZwFJVMV/image.png",
+      "https://i.ibb.co/zTFBWYZP/image.png",
+      "https://i.ibb.co/RxKfZxv/image.png"
     ],
-    "description": "Marathon management app with user/donor roles, countdown, private routes, and secure backend.",
+    "description": "A complete event listing platform with filtering, booking, and admin panel. Built with React, Firebase & Swiper.",
     "features": [
-      "Role-based routing (admin, donor, runner)",
-      "Countdown & donor showcase",
-      "JWT-secured API backend"
+      "Event filtering by category/date",
+      "User & admin panel functionality",
+      "Responsive carousel integration"
     ],
-    "live": "https://runflow.web.app",
-    "github": "https://github.com/yeasin75/RunFlow",
-    "tech": ["React", "Firebase", "JWT", "MongoDB"],
-    "challenges": "Implementing secure private routes and handling multiple user roles was complex.",
-    "futurePlans": "Add real-time event updates and expand donation options."
+    "live": "https://event-explorer-catagori-jesmine-a9.netlify.app",
+    "github": "https://github.com/yeasin-islam/event-explorer",
+    "tech": ["React", "Firebase", "Tailwind", "Swiper"],
+    "challenges": "Managing real-time data updates and optimizing carousel performance was challenging.",
+    "futurePlans": "Implement social login and improve mobile UX."
   }
 ]

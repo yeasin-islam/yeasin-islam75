@@ -38,16 +38,18 @@ function App() {
     return (
         <div className="rubik-regular">
             <div className="fixed top-0 left-0 w-full h-screen bg-[url('/HeroImg1.jpg')] opacity-80 bg-cover bg-center -z-10" />
-            <Navbar />
-            <Hero />
-            <About />
-            <Skills />
-            {/* <Experience /> */}
-            <Education />
-            <Projects />
-            <GetInTouch />
-            <Footer />
-            <ScrollToTop />
+            <Navbar className=" overflow-hidden" />
+            <div className="overflow-x-hidden">
+                <Hero />
+                <About />
+                <Skills />
+                {/* <Experience /> */}
+                <Education />
+                <Projects />
+                <GetInTouch />
+                <Footer />
+                <ScrollToTop />
+            </div>
         </div>
     );
 }

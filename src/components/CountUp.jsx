@@ -12,11 +12,11 @@ const CountUpStats = () => {
   return (
     <section className="bg-[#312f2f]">
       <div className="container mx-auto md:px-0 px-4">
-        <div className="grid gap-8 grid-cols-2 md:grid-cols-2">
+        <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
           {stats.map((stat, idx) => (
             <div
               key={idx}
-              className="card bg-[#3e3c3c] shadow-lg text-center py-6 transform transition duration-300 hover:scale-105 border"
+              className="card rounded-xl p-8 text-left space-y-6 shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl border border-secondery"
               data-aos="zoom-in"
               data-aos-delay={idx * 100} // 0ms, 100ms, 200ms, ...
             >
