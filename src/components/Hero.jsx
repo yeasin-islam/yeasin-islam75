@@ -15,11 +15,11 @@ const Hero = () => {
                 {/* Left Text Content */}
                 <div className="flex-1" data-aos="fade-left">
                     <h1 className="text-3xl md:text-5xl font-extrabold leading-tight">
-                        Hi, I'm <span className="text-[#ff0054]">Md.Yeasin Islam</span>
+                        Hi, I'm <span className="text-[#ff0054]">Md. Yeasin Islam</span>
                     </h1>
                     <h2 className="text-xl md:text-3xl mt-3 font-extrabold ">
                         {" "}
-                        <span className="text-yellow-300 text-2xl md:text-3xl lg:text-4xl ">
+                        <span className="text-[#ffbd39] text-2xl md:text-3xl lg:text-4xl ">
                             <Typewriter
                                 words={[
                                     "a MERN Stack Developer",

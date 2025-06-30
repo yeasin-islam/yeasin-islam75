@@ -33,7 +33,7 @@ const Projects = () => {
               data-aos-delay={index * 100}
             >
               {/* Image / Swiper */}
-              <div className="w-full lg:w-1/2" data-aos="fade-right">
+              <div onClick={() => setSelectedProject(project)} className="cursor-pointer w-full lg:w-1/2" data-aos="fade-right">
                 <Swiper
                   spaceBetween={10}
                   slidesPerView={1}
@@ -95,7 +95,7 @@ const Projects = () => {
                   {/* Details button */}
                   <a
                     onClick={() => setSelectedProject(project)}
-                    className="flex items-center gap-1 text-md hover:underline text-primary"
+                    className="flex items-center gap-1 text-md hover:underline text-primary cursor-pointer"
                   >
                    Details <TbListDetails />
                   </a>
@@ -109,7 +109,7 @@ const Projects = () => {
       {/* Modal */}
       {selectedProject && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50 p-4"
+          className="fixed inset-0 bg-black/80 bg-opacity-70 flex justify-center items-center z-50 p-4"
           onClick={() => setSelectedProject(null)}
         >
           <div

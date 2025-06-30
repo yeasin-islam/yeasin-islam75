@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { FaDownload } from "react-icons/fa";
+import Img from "/public/NavbarLogo.png"
 
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
   return (
     <>
       <section
-        className={`sticky top-0 z-50 bg-[#333333]/40 transition-all duration-300  ${scrolled ? "bg-white text-black shadow-md" : " text-white"
+        className={`sticky top-0 z-50 bg-[#333333]/20 transition-all duration-300  ${scrolled ? "bg-white text-black shadow-md" : " text-white"
           }`}>
         <div className="container mx-auto px-4 lg:px-0 py-4 md:px-0 navbar">
           {/* Logo */}
@@ -42,8 +43,10 @@ const Navbar = () => {
               onClick={() => window.location.reload()}
               title="Reload Page"
             >
+              <img src={Img} alt="Yeasin" className="w-36 brightness-200" />
+
               <p className="text-4xl text-[#ff0054]">
-                Yeasin <span className={scrolled ? "text-black" : "text-white"}>Islam</span>
+                {/* Yeasin <span className={scrolled ? "text-black" : "text-white"}>Islam</span> */}
               </p>
             </div>
           </div>

@@ -49,7 +49,7 @@ const MarqueeRow = ({ reverse }) => {
   const [paused, setPaused] = useState(false);
 
   const animation = {
-    animation: `${reverse ? "marqueeReverse" : "marquee"} 50s linear infinite`,
+    animation: `${reverse ? "marqueeReverse" : "marquee"} 100s linear infinite`,
     animationPlayState: paused ? "paused" : "running",
   };
 
@@ -59,7 +59,7 @@ const MarqueeRow = ({ reverse }) => {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <div className="flex w-max gap-4" style={animation}>
+      <div className="flex w-max" style={animation}>
         {skills.concat(skills).map((skill, idx) => (
           <SkillCard key={idx} skill={skill} />
         ))}
@@ -70,9 +70,10 @@ const MarqueeRow = ({ reverse }) => {
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-[#2d2b2b] py-16 overflow-hidden relative">
-      {/* Keyframes in global style */}
-      <style>{`
+    <div className="bg-[#2d2b2b]">
+      <section id="skills" className="py-16 overflow-hidden relative">
+        {/* Keyframes in global style */}
+        <style>{`
         @keyframes marquee {
           0% { transform: translateX(0); }
           100% { transform: translateX(-50%); }
@@ -83,18 +84,20 @@ const Skills = () => {
         }
       `}</style>
 
-      <div className="container mx-auto lg:px-0 px-4 py-8 lg:py-0">
-        <h2 className="text-4xl font-extrabold text-center text-white mb-14 tracking-wider" data-aos="fade-up" data-aos-delay="200">
-          <span className="drop-shadow-[2px_2px_0px_#ff0054]">MY SKILLS</span>
-        </h2>
+        <div className="lg:px-0 px-4 py-8 lg:py-0">
+          <h2 className="text-4xl font-extrabold text-center text-white mb-14 tracking-wider" data-aos="fade-up" data-aos-delay="200">
+            <span className="drop-shadow-[2px_2px_0px_#ff0054]">MY SKILLS</span>
+          </h2>
 
-        <div className="space-y-12" data-aos="fade-up" data-aos-delay="200">
-          <MarqueeRow reverse={false} />
-          <MarqueeRow reverse={true} />
-          {/* <MarqueeRow reverse={false} /> */}
+          <div className="space-y-12" data-aos="fade-up" data-aos-delay="200">
+            <MarqueeRow reverse={false} />
+            <MarqueeRow reverse={true} />
+            {/* <MarqueeRow reverse={false} /> */}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+
   );
 };
 
