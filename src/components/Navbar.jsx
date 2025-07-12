@@ -142,7 +142,7 @@ const Navbar = () => {
           <a
             href="/Resume_of_Md_Yeasin_Islam.pdf"
             download="Resume_of_Md_Yeasin_Islam.pdf"
-            className="btn btn-primary flex items-center gap-2 mt-6"
+            className="btn btn-primary flex items-center gap-2"
           >
             <FaDownload /> My Resume
           </a>
