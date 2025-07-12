@@ -20,7 +20,7 @@ const About = () => {
           {/* Text Content */}
           <div className="w-full lg:w-1/2 text-left" data-aos="fade-right">
             <h3 className="text-2xl font-bold text-[#ffbd39] mb-1">I'm Md. Yeasin Islam</h3>
-            <h4 className="text-xl font-semibold text-secondary mb-4">MERN Stack Web Developer</h4>
+            <h4 className="text-xl font-semibold text-[#ff0054] mb-4">MERN Stack Web Developer</h4>
 
             <p className="leading-relaxed text-lg text-white">
               I'm a MERN stack developer passionate about building clean and user-friendly web applications. I have spent a lot of time learning and practicing the skills needed to create dynamic, responsive projects. I’m eager to grow, take on new challenges, and contribute my best to every project I work on.

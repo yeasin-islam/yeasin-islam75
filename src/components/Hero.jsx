@@ -85,8 +85,8 @@ const Hero = () => {
                         data-aos-delay="200"
                     >
                         <a
-                            href="/Yeasin_Resume.pdf"
-                            download="Yeasin_Resume.pdf"
+                            href="/Resume_of_Md_Yeasin_Islam.pdf"
+                            download="Resume_of_Md_Yeasin_Islam.pdf"
                             className="btn btn-primary flex items-center gap-2"
                         >
                             <FaDownload /> My Resume
@@ -97,7 +97,7 @@ const Hero = () => {
                             smooth={true}
                             duration={900}
                             offset={-70}
-                            className="cursor-pointer hover:text-[] btn btn-secondary"
+                            className="cursor-pointer hover:text-[] btn btn-primary"
                         >
                             <FaPhoneAlt /> Contact Me
                         </Link>

@@ -1,10 +1,14 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+// import Img from "/public/NavbarLogo.png"
 
 const Footer = () => {
   return (
     <section className="bg-[#333333] text-white">
       <div className="container mx-auto px-4 md:px-0 text-center space-y-6 py-8">
         {/* Social Icons */}
+        {/* <div className="flex justify-center">
+          <img src={Img} alt="Yeasin" className="w-36 brightness-200" />
+        </div> */}
         <div className="flex justify-center gap-5">
           {[
             {

@@ -1,13 +1,13 @@
 const educationData = [
   {
-    year: "2023 - 2028",
+    year: "2024 - 2028",
     degree: "B.Sc in Computer Science and Engineering (CSE)",
     institution: "World University of Bangladesh",
     description:
       "Currently pursuing my degree in Computer Science and Engineering, focusing on modern web development and software technologies.",
   },
   {
-    year: "Jan 2024 - July 2024",
+    year: "Jan 2025 - July 2025",
     degree: "Complete Web Development Level 1 (Course)",
     institution: "Programming Hero",
     description:

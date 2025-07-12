@@ -24,7 +24,7 @@ const CountUpStats = () => {
               <div className="card-body items-center">
                 <div className="text-4xl text-[#ff0054] mb-2">{stat.icon}</div>
                 <h3 className="text-3xl font-bold text-white">
-                  <CountUp end={stat.value} duration={4.5} /> +
+                  <CountUp start={0} end={stat.value} duration={2.5} /> +
                 </h3>
                 <p className="text-white text-lg mt-1">{stat.label}</p>
               </div>

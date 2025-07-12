@@ -70,8 +70,8 @@ const Navbar = () => {
             ))}
 
             <a
-              href="/Yeasin_Resume.pdf"
-              download='Yeasin_Resume.pdf'
+              href="/Resume_of_Md_Yeasin_Islam.pdf"
+              download='Resume_of_Md_Yeasin_Islam.pdf'
               className="btn btn-primary flex items-center gap-2"
             >
               <FaDownload /> My Resume
@@ -140,8 +140,8 @@ const Navbar = () => {
           </div>
 
           <a
-            href="/Yeasin_Resume.pdf"
-            download="Yeasin_Resume.pdf"
+            href="/Resume_of_Md_Yeasin_Islam.pdf"
+            download="Resume_of_Md_Yeasin_Islam.pdf"
             className="btn btn-primary flex items-center gap-2 mt-6"
           >
             <FaDownload /> My Resume
@@ -152,7 +152,6 @@ const Navbar = () => {
       <style jsx="true">{`
           .active {
             color: #ff0054;
-            font-weight: 600;
           }
         `}</style>
     </>
